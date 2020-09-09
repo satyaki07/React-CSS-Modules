@@ -20,9 +20,9 @@ class Persons extends PureComponent {
   //   return false;
   // }
 
-  getSnapshotBeforeUpdate(prevProps, prevState) {
-    console.log("[Persons.js] getSnapshotBeforeUpdate");
-  }
+  // getSnapshotBeforeUpdate(prevProps, prevState) {
+  //   console.log("[Persons.js] getSnapshotBeforeUpdate");
+  // }
 
   componentDidUpdate() {
     console.log("[Persons.js] componentDidUpdate");
